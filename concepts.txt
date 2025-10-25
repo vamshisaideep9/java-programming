@@ -1,0 +1,140 @@
+Function:
+
+Runtype name() {
+    ...
+}
+
+Runtype() --> void, int, ...  (return Type)
+------------------------------------------
+
+class -> Is a container for one or more related functions. Organized.
+
+void main() {
+    ...
+}
+
+main() --> Entry point
+
+class Main {
+    void main() {
+        ...
+    }
+}
+
+Method is a function that is part of a class. A function is called method if it belongs to a class.
+
+--------------------------------------------------
+Access Modifiers ---> Public, Private, ...
+
+
+public class Main {
+    public void main() {
+        ...
+    }
+}
+
+------------------------------------------------
+
+1. To name our classes we use PascalNamingConvention. First letter of every word should Uppercase
+
+2. To name our methods we use camelNamingConvention. Their first letter of every word should be capital except first word.
+
+------------------------------------------------
+
+How java code runs under the hood?
+
+1. Compilation and Execution
+--> Compiles our code into byte code. (Main.class)
+--> It can run on any os. Which has java runtime environment.
+--> Java RunTime Environment has a software called java virtual machine. It takes our bytecode and translates into native code.
+
+--------------------------------------------
+
+5 Interesting facts about java:
+
+1. Developed by james Gosling.  Originally called Oak.
+2. Standard Edition (SE), Enterprise Edition (EE), Micro Edition (ME), Java Card
+3. 9 million developers use java. 
+
+
+--------------------------------------------
+
+
+Primitive Type vs Reference Types
+
+1. Primitive Type --> Stroing simple values
+-> We dont have to allocate memory.
+
+2. Reference --> Stroing complex objects
+-> We should allocate memory.
+
+
+ ----------------------------------------
+
+ String Concatination --> use + operator.
+
+ -> .endswith("") --> Boolean Expression
+
+ -> .startsWith("") --> Boolean Expression
+
+ -> .length() 
+
+ -> .indexOf("") --> -1 for no values
+
+ -> .replace("target", "replacement")  --> Does not modify original string. It prints new string.
+
+ ** In Java Strings are immutable. 
+
+ -> .toLowerCase() 
+
+ -> .toUpperCase()
+
+ -> .trim() -> Get rid of extra white spaces at the beggining and at the end.
+
+ ---------------------------------------------
+
+ Escape Sequences
+
+
+ "Hello "World" --> Error
+
+ "Hello \"World\"" --> Correct usage. ---> \"  \"
+
+
+ For backslash --> Add extra backslash
+
+ "c:\\windows\\..";
+
+
+ \n --> To add new line 
+
+ \t --> add tab (large space/gap)
+
+ ----------------------------------------------
+
+ Arrays
+
+ Arrays.toString()
+
+ -> .length
+ -> .sort
+
+ ------------------------------------
+
+ Multidimensional Arrays
+
+ 2D arrays to store Matrix, 
+
+--> Arrays.deepToString() -> Use this to print Multidimensional Arrays.
+
+---------------------------------------
+
+Constants
+
+float pi = 3.14F;
+
+if we want out variable pi to stay constant. use final
+
+final float pi = 3.14F;
+
+
