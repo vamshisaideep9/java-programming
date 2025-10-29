@@ -1,0 +1,29 @@
+JAVA METHODS:
+
+java methods are block of code that perform a specific task. A method allows us to reuse code, Improving both efficiency and organization.
+All methods in java must belong to a class. Methods are similar to functions and expose the behavior of objects.
+
+KEY COMPONENTS OF METHODS:
+Methods consist of modifier (Define Access Level), return type (What value returned or void), 
+name (Define the name of method follows camelCase), parameters (optional inputs), and a body.
+
+WHY USE METHODS?
+Break code into separate methods helps improve readability, reusability, and maintainability.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+METHOD CALL STACK IN JAVA
+java is an object-oriented and stack-based programming language where methods play a key role in controlling the program's execution flow.
+When a method is called java uses an internal structure known as the call stack to manage execution, variables, and return addresses.
+
+WHAT IS A CALL STACK?
+The call stack is a data structure used by the program during runtime to manage method calls and local variables. it operates in a Last-in-first-Out (FIFO) manner.
+Meaning the last method called is the first one to complete and exit.
+
+HOW ARE METHODS EXECUTED?
+1. A new stack frame is added to the call stack to store the method details.
+2. The methods runs its code.
+3. After execution, the stack frame is removed, and control goes back to the calling method.
+
+Java automatically manages the call stack using the JAVA Virtual MAchine (JVM).
+
