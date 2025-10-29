@@ -1,0 +1,73 @@
+ARRAYS IN JAVA
+
+In java, an array is an important linear data structure that allows us to store multiple values 
+of the same type.
+-> Arrays in java are objects, like all other objects in java, arrays implicitly inherit from the 
+java.lang.Object.class. This allows you to invoke methods defined in object. 
+-> Arrays have a built-in length property, which provides the number of elements in the array.
+
+-----------------------------------------------------------------------------------------------------------------
+
+KEY FEATURES OF ARRAYS
+
+1. STORE PRIMITIVES AND OBJECTS -> Java arrays can hold both primitive types (like int, char, boolean, etc.)
+and objects (like String, Integer, etc.)
+2. CONTIGUOUS MEMORY ALLOCATION -> When we use arrays of primitive types, the elements are stored in
+contiguous locations. For non-primitive types, references of items are stored in contiguous locations.
+3. ZERO-BASED INDEXING -> The first element of the array is at index 0.
+4. FIXED LENGTH -> After creating an array, its size is fixed; we cannot change it.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+BASIC OPERATIONS ON ARRAYS IN JAVA
+
+1. DECLARING AN ARRAY
+-> int arr[];
+-> int[] arr;
+
+2. INITIALIZING AN ARRAY IN JAVA
+-> int arr[] = new int[size];
+-----> When an array is declared, only a reference of an array is created. We use new to allocate an array of given size.
+-----> Array declaration is generally static, but if the size in not defined, the array is dynamically sized.
+-----> Memory for arrays is always dynamically allocated in java. 
+-----> The elements in array allocated by new will automatically be initialized to zero, false or null.
+
+3. ARRAY LITERAL IN JAVA
+Where the size of the array and variables of the array are already known, array literals can be used.
+
+-> int[] arr = new int[]{1,2,3,4,5,6,7};
+-----> The length of this array determined the length of the created array.
+-----> No need to write new int[] part in the latest version of java.
+
+4. CHANGE AN ARRAY ELEMENT
+Assign a new value to a specific index. (0 - n-1);
+-> arr[0] = 90;
+
+5. ARRAY LENGTH
+-> int n = arr.length;
+
+--------------------------------------------------------------------------------------------
+
+ARRAYS OF OBJECTS IN JAVA
+An array of objects is created like an array of primitive-type data items.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+WHAT HAPPENS IF WE TRY TO ACCESS ELEMENTS OUTSIDE THE ARRAY SIZE?
+
+JVM throws ArrayIndexOutOfBoundsException to indicate that the array has been accessed with an
+illegal index. The index is either negative or greater than or equal to the size of an array.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+PASSING ARRAYS TO METHODS
+
+Like variables, we can also pass arrays to methods.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+RETURNING ARRAYS FROM METHODS
+
+A method can also return an array. 
+
+--------------------------------------------------------------------------------------------------------------------------------------

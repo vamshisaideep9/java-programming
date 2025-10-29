@@ -27,3 +27,62 @@ HOW ARE METHODS EXECUTED?
 
 Java automatically manages the call stack using the JAVA Virtual MAchine (JVM).
 
+
+TYPE OF METHODS IN JAVA
+1. PREDEFINED METHODS -> Predefined methods are the method that is already defined in the java class libraries.
+    Aka standard library method or the builtin library method.
+    EX: Math.random();
+        Math.PI;
+2. USER-DEFINED METHOD -> The method written by the user or the programmer is known as user-defined methods.
+    EX: Greet();
+
+-----------------------------------------------------------------------------------------------------------------------
+
+DIFFERENT WAYS TO CREATE JAVA METHOD.
+
+1. INSTANCE METHOD: Access the instance data using the object name. Declared inside a class.
+2. STATIC METHOD: Access the static data using class name. Declared inside class with static keyword.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+METHOD SIGNATURE
+
+It consists of the method name and a parameter list.
+- Number of parameters
+- Type of the parameters
+- Order of the parameters
+EX: max(int x, int y) Number of parameters is 2, The parameter is int.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+NAMING A METHOD
+
+Method name is typically a single word that should be a verb in lowerCase or multi-word, that begins with a verb in lowerCase
+Followed by an adjactive noun. 
+
+RULES TO NAME A METHOD:
+- Method name must start with a verb with lowerCase
+- multi-word names should follow camelCase format.
+- Method names should be unique.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+CALLING DIFFERENT TYPES OF METHODS IN JAVA
+
+Method calling in java means invoking a method to execute the code it contains. It transfers control to the process, run its logic,
+and then returns to the calling point after execution.
+
+1. CALLING A USER-DEFINED METHOD
+User-defined methods are blocks of code written by the programmer. TO execute a user-defined method, we first create a object of the class and then
+call the method using that object.
+
+2. CALLING AN ABSTRACT METHOD
+Abstract methods have no body and must be overridden in a subclass. They are called using an object
+of the subclass.
+
+3. CALLING PREDEFINED METHODS
+Java provides many built-in methods via the java standard library, Like hashcode(). Objects memory address hash.
+
+4. CALLING A STATIC METHOD
+Static methods belong to the class, not the object. They can be called without creating an object.
+
